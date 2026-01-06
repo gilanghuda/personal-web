@@ -27,7 +27,7 @@ const Home = () => {
             exit="hidden"
             className="h1"
           >
-            Hello Its me again{" "}
+            Hello, I'm{" "}
             <br/>
             <span className="text-accent">Gilang Fachrul Huda</span>
           </motion.h1>
@@ -44,19 +44,28 @@ const Home = () => {
               solutions as a Full-Stack Developer. My expertise lies in Backend,
               Frontend, Mobile, and DevOps.
             </p>
-            <div className="mt-8 flex items-center justify-center xl:justify-start gap-4">
-              <Link
-                href="/about"
-                className="flex items-center rounded-lg border-2 border-solid border-white/80 p-2.5 px-6 text-lg font-semibold capitalize text-white/80 hover:border-accent hover:bg-accent hover:text-primary transition-all duration-300 md:p-2 md:px-4 md:text-base"
+            {/* Button section */}
+            <div className="flex gap-3 mt-10">
+              <a
+                href="/#projects"
+                onClick={(e) => {
+                  e.preventDefault();
+                  const projectSection = document.getElementById('projects');
+                  if (projectSection) {
+                    projectSection.scrollIntoView({ behavior: 'smooth' });
+                  }
+                }}
+                className="px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg font-semibold transition"
               >
-                Get To Know Me
-              </Link>
-              <Link
-                href="/work"
-                className="flex items-center rounded-lg border-2 border-solid border-accent bg-accent p-2.5 px-6 text-lg font-semibold capitalize text-primary hover:bg-transparent hover:text-accent transition-all duration-300 md:p-2 md:px-4 md:text-base"
+                View Projects
+              </a>
+              <a
+                href="/cv.pdf"
+                download="Gilang_Fachrul_Huda_CV.pdf"
+                className="px-6 py-3 bg-gray-600 hover:bg-gray-700 text-white rounded-lg font-semibold transition"
               >
-                projects
-              </Link>
+                Download My CV
+              </a>
             </div>
           </motion.div>
         

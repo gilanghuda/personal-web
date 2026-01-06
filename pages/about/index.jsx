@@ -58,12 +58,22 @@ export const aboutData = [
     title: "awards",
     info: [
       {
-        title: "Hackathon Finalist",
-        stage: "2023",
+        title: "Hology 8.0 - 4th Place",
+        stage: "September - October 2025",
+        description:
+          "Ranked 4th out of 60 teams. Developed Qnectify, an AI-powered learning platform with automated quiz generation and gamification.",
       },
       {
-        title: "Dean's List",
-        stage: "2022",
+        title: "Hackathon Raion HackJam - 2nd Place",
+        stage: "August 2025",
+        description:
+          "Developed Medivine, an AI-based mobile app for early symptom detection and private medical consultations in one week.",
+      },
+      {
+        title: "Hology 7.0 - 3rd Place",
+        stage: "September - October 2024",
+        description:
+          "Secured 3rd Place out of 75 teams. Developed BAGASI, a platform connecting breast milk donors and recipients.",
       },
     ],
   },
@@ -71,12 +81,24 @@ export const aboutData = [
     title: "experience",
     info: [
       {
-        title: "Freelance Developer",
-        stage: "2023 - Present",
+        title: "Poros, DevOps Engineer",
+        stage: "March 2025 - December 2025",
+        description:
+          "Developed the backend system for the Poros web platform, ensuring reliability and scalability. Automated deployments with CI/CD pipelines to speed releases and reduce manual effort. Monitored system performance and optimized server configuration to enhance stability and response time.",
+        icons: [FaDocker, SiGrafana, SiPrometheus],
       },
       {
-        title: "Lab Assistant",
-        stage: "2023 - Present",
+        title: "Raion, App Programmer",
+        stage: "February 2025 - December 2025",
+        description:
+          "Developed mobile applications with a focus on clean architecture and responsive UI. Collaborated with designers to deliver seamless and user-friendly features. Mentored 40+ participants in Raion Academy, providing guidance on mobile development best practices and project execution.",
+        icons: [SiFlutter, SiKotlin, FaReact],
+      },
+      {
+        title: "Object Oriented Programming Laboratory Assistant",
+        stage: "January 2025 - July 2025",
+        description:
+          "Served as an Object Oriented Programming Laboratory Assistant, guiding and supporting over 40 students enrolled in OOP courses. Assisted in establishing practical meetings, courses, and hands-on exercises focused on OOP concepts and implementation.",
       },
     ],
   },
@@ -215,12 +237,16 @@ const About = () => {
             {aboutData[index].info.map((item, itemI) => (
               <div
                 key={itemI}
-                className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-center text-white/60"
+                className="flex-1 flex flex-col max-w-max gap-x-2 items-center xl:items-start text-center xl:text-left text-white/60"
               >
                 {/* title */}
-                <div className="font-light mb-2 md:mb-0">{item.title}</div>
-                <div className="hidden md:flex">-</div>
-                <div>{item.stage}</div>
+                <div className="font-light">{item.title}</div>
+                <div className="text-sm mb-2">{item.stage}</div>
+                {item.description && (
+                  <div className="text-xs leading-relaxed max-w-[400px] mb-2">
+                    {item.description}
+                  </div>
+                )}
 
                 <div className="flex gap-x-4">
                   {/* icons */}

@@ -1,14 +1,21 @@
 <svg width="1435" height="877" viewBox="0 0 1435 877" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" style="stop-color:#1E1E1E;stop-opacity:1" />
+<stop offset="50%" style="stop-color:#333333;stop-opacity:1" />
+<stop offset="100%" style="stop-color:#2A2A2A;stop-opacity:1" />
+</linearGradient>
+</defs>
 <g clip-path="url(#clip0_157_2)">
-<rect width="1435" height="877" fill="#1A1333"/>
+<rect width="1435" height="877" fill="url(#bgGradient)"/>
 <g filter="url(#filter0_f_157_2)">
-<circle cx="172" cy="153" r="178" fill="#352467"/>
+<circle cx="172" cy="153" r="178" fill="#4A4A4A"/>
 </g>
 <g filter="url(#filter1_f_157_2)">
-<circle cx="1299" cy="142" r="178" fill="#352467"/>
+<circle cx="1299" cy="142" r="178" fill="#4A4A4A"/>
 </g>
 <g filter="url(#filter2_f_157_2)">
-<circle cx="1082" cy="460" r="217" fill="#352467"/>
+<circle cx="1082" cy="460" r="217" fill="#4A4A4A"/>
 </g>
 </g>
 <defs>

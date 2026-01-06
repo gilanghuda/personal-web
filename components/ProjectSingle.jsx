@@ -37,7 +37,7 @@ const ProjectSingle = (props) => {
 							{props.title}
 						</p>
 						<span className="text-lg text-ternary-dark dark:text-ternary-light">
-							{props.category}
+							{Array.isArray(props.category) ? props.category.join(', ') : props.category}
 						</span>
 					</div>
 				</div>
