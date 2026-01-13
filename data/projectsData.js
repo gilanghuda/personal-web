@@ -7,7 +7,7 @@ export const projectsData = [
     ProjectHeader: {
       title: 'SoBi - Digital Islamic Guidance Application',
       publishDate: 'Okt 2025',
-      tags: 'Golang, Python, React Native, AI',
+      tags: 'Golang, Python, Flutter, AI',
     },
     ProjectImages: [
       { id: 1, title: 'Dashboard', img: '/thumb1.png' },
@@ -23,7 +23,7 @@ export const projectsData = [
       ObjectivesHeading: 'Overview',
       ObjectivesDetails: 'A digital Islamic guidance application designed to help teenagers build positive habits, self-awareness, and healthy social interactions through a technology-driven and faith-based approach.',
       Technologies: [
-        { title: 'Tech Stack', techs: ['Golang', 'Python', 'React Native', 'PostgreSQL', 'Redis'] },
+        { title: 'Tech Stack', techs: ['Golang', 'Python', 'Flutter', 'PostgreSQL'] },
       ],
       Features: [
         { id: 1, title: 'Daily Goals Tracker', description: 'Set, track, and monitor daily positive habits and personal goals.' },
@@ -111,9 +111,9 @@ export const projectsData = [
       tags: 'Golang, PostgreSQL, Docker, GitHub Actions',
     },
     ProjectImages: [
-      { id: 1, title: 'Dashboard', img: '/thumb3.png' },
-      { id: 2, title: 'Quiz Platform', img: '/thumb3.png' },
-      { id: 3, title: 'Study Groups', img: '/thumb3.png' },
+      { id: 1, title: 'Dashboard', img: '/thumb4.png' },
+      { id: 2, title: 'Quiz Platform', img: '/thumb4.png' },
+      { id: 3, title: 'Study Groups', img: '/thumb4.png' },
     ],
     ProjectInfo: {
       ClientHeading: 'About Project',
@@ -163,9 +163,9 @@ export const projectsData = [
       tags: 'Flutter, Firebase, GCP, Provider',
     },
     ProjectImages: [
-      { id: 1, title: 'Navigation', img: '/thumb4.png' },
-      { id: 2, title: 'Companion Tracking', img: '/thumb4.png' },
-      { id: 3, title: 'Community Hub', img: '/thumb4.png' },
+      { id: 1, title: 'Navigation', img: '/thumb3.png' },
+      { id: 2, title: 'Companion Tracking', img: '/thumb3.png' },
+      { id: 3, title: 'Community Hub', img: '/thumb3.png' },
     ],
     ProjectInfo: {
       ClientHeading: 'About Project',
@@ -306,9 +306,9 @@ export const projectsData = [
       tags: 'Node.js, PostgreSQL, Express, RESTful API',
     },
     ProjectImages: [
-      { id: 1, title: 'Dashboard', img: '/thumb1.png' },
-      { id: 2, title: 'Donor Search', img: '/thumb1.png' },
-      { id: 3, title: 'Community', img: '/thumb1.png' },
+      { id: 1, title: 'Dashboard', img: '/thumb7.png' },
+      { id: 2, title: 'Donor Search', img: '/thumb7.png' },
+      { id: 3, title: 'Community', img: '/thumb7.png' },
     ],
     ProjectInfo: {
       ClientHeading: 'About Project',
@@ -353,9 +353,9 @@ export const projectsData = [
       tags: 'Next.js, React, Tailwind CSS, API',
     },
     ProjectImages: [
-      { id: 1, title: 'Homepage', img: '/thumb1.png' },
-      { id: 2, title: 'News Section', img: '/thumb1.png' },
-      { id: 3, title: 'Profile', img: '/thumb1.png' },
+      { id: 1, title: 'Homepage', img: '/thumb8.png' },
+      { id: 2, title: 'News Section', img: '/thumb8.png' },
+      { id: 3, title: 'Profile', img: '/thumb8.png' },
     ],
     ProjectInfo: {
       ClientHeading: 'About Project',
