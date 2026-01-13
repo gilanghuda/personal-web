@@ -107,7 +107,7 @@ export const aboutData = [
     info: [
       {
         title: "Informatics Engineering - Universitas Brawijaya",
-        stage: "2021 - Present",
+        stage: "2023 - Present",
       },
     ],
   },
